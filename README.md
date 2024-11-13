@@ -1,0 +1,2 @@
+# pocketai
+ondevice ai
