@@ -1,2 +1,3 @@
 # pocketai
-ondevice ai
+- ondevice ai
+- robots
