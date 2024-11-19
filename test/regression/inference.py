@@ -3,9 +3,9 @@ from model import RegressionModel
 
 
 def predict(x):
-    # Load the trained model
+    # Load the trained model with weights_only=True for security
     model = RegressionModel()
-    model.load_state_dict(torch.load("regression_model.pth"))
+    model.load_state_dict(torch.load("regression_model.pth", weights_only=True))
     model.eval()
 
     # Convert input to tensor
